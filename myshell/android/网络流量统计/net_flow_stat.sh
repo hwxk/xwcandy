@@ -7,8 +7,6 @@
 # 
 # 不再允许应用直接读取 /proc/net/xt_qtaguid 文件夹中的文件。 这样做是为了确保与某些在发布时运行 Android P、但未提供这些文件的设备保持一致。
 # ————————————————
-# 版权声明：本文为CSDN博主「mr_sunming」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-# 原文链接：https://blog.csdn.net/mr_thesun/java/article/details/80725058
 #############
 
 if [[ $1 == '' ]]; then
